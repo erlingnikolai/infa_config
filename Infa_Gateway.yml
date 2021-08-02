@@ -8,6 +8,6 @@ spring:
     gateway:
       routes:
         - id: client
-          uri: 'http://localhost:8080'
+          uri: 'http://localhost:9001'
           predicates:
             - Path=/mail/**
